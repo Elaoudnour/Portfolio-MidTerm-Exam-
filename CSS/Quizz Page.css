@@ -1,0 +1,74 @@
+body {
+        background: linear-gradient(to right, #ECEBDE, #D7D3BF, #C1BAA1);
+        text-align: center;
+        z-index: -1;
+}
+h1{
+    font-size: 100px;
+    font-family:fantasy;
+    font-style: italic;
+    color: #008DDA;
+    text-align: center;
+}
+.quiz-container {
+    margin-left: 230px;
+}
+#questions{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #37AFE1;
+}
+#result{
+    font-size: 30px;
+    font-family:fantasy;
+    font-weight: lighter;
+    color: #4477CE;
+}
+#correct-answers{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #A0E9FF;
+}
+.button-89 {
+    --b: 3px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #81CEEB;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    /* font-size: 16px; */
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    /* margin-top: 30px; */
+    margin-left: 30px;
+
+
+    margin-top: 20px;
+    /* padding: 10px 20px; */
+    font-size: 16px;
+    cursor: pointer;
+
+  }
+  
+  .button-89:hover,
+  .button-89:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+  }
+  
+  .button-89:active {
+    background: var(--color);
+    color: #fff;
+  }

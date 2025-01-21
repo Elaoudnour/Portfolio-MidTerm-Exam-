@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(to right, #ECEBDE, #D7D3BF, #C1BAA1);
+    z-index: -1;
+}
+header, main{
+    margin-left: 230px;
+}
+h1{
+    font-size: 100px;
+    font-family:fantasy;
+    font-style: italic;
+    color: #008DDA;
+    text-align: center;
+}
+main .body{
+    color: #4477CE;
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    list-style-position: inside;
+}
+.element{
+    padding: 10px;
+}
+.element:hover{
+    border-radius: 5px;
+    background-color: #C1BAA1;
+    transition-duration: 1s;
+}

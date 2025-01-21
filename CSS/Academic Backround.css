@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(to right, #ECEBDE, #D7D3BF, #C1BAA1);
+    z-index: -1;
+}
+main, header{
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin-left: 230px;
+}
+
+h1{
+    font-size: 100px;
+    font-family:fantasy;
+    font-style: italic;
+    color: #008DDA;
+    text-align: center;
+}
+
+ol .images{
+    width: 20%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+p{
+    color: #37AFE1;
+    font-size: 15px;
+}
+
+ul{
+    list-style-image:url('C:\Users\MSI\Documents\Tutored Project MidTerm Exam\images\icons8-flower-100.png');
+    /* list-style-type: square; */
+}
+
+.title{
+    font-size: 30px;
+    font-family:fantasy;
+    font-weight: lighter;
+    /* font-style:normal; */
+    color: #4477CE;
+}
+ul li{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #A0E9FF;
+}

@@ -1,0 +1,28 @@
+body {
+    /* background: linear-gradient(to right, #D9DFC6, #EFF3EA, #FFFDF0); */
+    background: linear-gradient(to right, #ECEBDE, #D7D3BF, #C1BAA1);
+    z-index: -1;
+}
+header, main{
+    margin-left: 230px;
+}
+h1{
+    font-size: 100px;
+    font-family:fantasy;
+    font-style: italic;
+    color: #008DDA;
+    text-align: center;
+}
+p{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    font-family:fantasy;
+    font-weight: lighter;
+    padding: 30px 0px ;
+    margin-top: 110px;
+    color: #5FBDFF;
+    border: 2px solid #C1BAA1;
+    border-radius: 90px;
+    background-color: #D7D3BF;
+}

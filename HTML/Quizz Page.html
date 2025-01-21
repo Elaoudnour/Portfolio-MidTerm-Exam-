@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\CSS\Quizz Page.css">
+    <link rel="stylesheet" href="..\CSS\sidebar.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <header><h1>Tech & Geography Quiz</h1>
+    </header>
+    <nav class="navbar">
+        <ul class="mapping">
+            <li><a href="index.html" class="link">Home</a></li>
+            <li><a href="Academic Background.html" class="link">Academic Background</a></li>
+            <li><a href="Skills Page.html" class="link">Skills</a></li>
+            <li><a href="Work Exp.html" class="link">Work Experience</a></li>
+            <li><a href="Scientific Events.html" class="link">Scientific Events</a></li>
+            <li><a href="Studied Sub.html" class="link">Studied Subjects</a></li>
+            <li><a href="Passion.html" class="link">Passions and Hobbies</a></li>
+            <li><a href="Quizz Page.html" class="link" id="current">Quizz</a></li>
+            <li><a href="Contact.html" class="link">Contact</a></li>
+            <li><a href="Testimonialse.html" class="link">Testimonialse</a></li>
+        </ul>
+    </nav>
+    <main>
+    <div class="quiz-container">
+        <form id="quiz-form">
+            <div id="questions"></div>
+            <button type="button" onclick="submitQuiz()" class="button-89">Submit</button>
+        </form>
+        <h2 id="result"></h2>
+        <h3 id="correct-answers"></h3>
+    </div>
+    </main>
+    <script src="..\JS\Quizz Page.js"></script>
+</body>
+</html>

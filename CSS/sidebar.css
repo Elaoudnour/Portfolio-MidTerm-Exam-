@@ -1,0 +1,52 @@
+.navbar {
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    color: #1a53a8;
+    border-radius: 5px;
+    overflow: hidden;
+    /* display: fixed; */
+    z-index: 1;
+}
+
+.mapping {
+    width: 200px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    /*white #fff blue #1a53a8*/
+    padding: 20px 10px;
+}
+
+.navbar .link {
+    display: block;
+    color: #37AFE1;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+
+}
+
+.link:hover{
+    color: #006BFF;
+    padding:25px ;
+
+}
+
+#current{
+    color: #4CC9FE;
+    font-style: italic;
+    padding:25px ;
+    font-weight:bold;
+}
+
+

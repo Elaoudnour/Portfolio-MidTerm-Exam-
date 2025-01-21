@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(to right, #ECEBDE, #D7D3BF, #C1BAA1);
+    z-index: -1;
+}
+form{
+    margin-left: 230px;
+    display: block;
+}
+h1{
+    font-size: 100px;
+    font-family:fantasy;
+    font-style: italic;
+    color: #008DDA;
+    text-align: center;
+}
+label{
+    color: #4477CE;
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    list-style-position: inside;
+    display: inline-block;
+}
+.class1{
+    margin-left: 76px;
+    margin-bottom: 15px;
+}
+.class2{
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+.class3{
+    margin-left: 50px;
+}
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #81CEEB;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}

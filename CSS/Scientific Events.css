@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, #ECEBDE, #D7D3BF, #C1BAA1);
+    z-index: -1;
+    
+}
+header, main{
+    margin-left: 230px;
+}
+h1{
+    font-size: 100px;
+    font-family:fantasy;
+    font-style: italic;
+    color: #008DDA;
+    text-align: center;
+}
+p{
+    color: #37AFE1;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 4px solid #C1BAA1;
+    border-radius: 3px;
+    box-shadow: 8px 8px 15px #9d9784;
+    padding: 40px 10px;
+}
+p:hover{
+    background-color: #C1BAA1;
+    transition: 2s;
+}
